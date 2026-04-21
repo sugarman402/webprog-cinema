@@ -1,0 +1,40 @@
+# Git ignorálandó fájlok
+
+# Backend
+backend/.env
+backend/*.exe
+backend/cinematicket
+backend/bin/
+backend/*.o
+backend/*.a
+backend/*.so
+backend/.DS_Store
+
+# Frontend
+node_modules/
+npm-debug.log
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+.env.local
+.env.*.local
+
+# Docker
+.dockerignore
+
+# Database
+*.sql
+postgres_data/
+
+# Logs
+*.log
+logs/

@@ -1,0 +1,18 @@
+{
+  "name": "cinema-manager-frontend",
+  "version": "1.0.0",
+  "description": "Cinema Manager Frontend - Webprogramozás Feladat",
+  "main": "index.html",
+  "scripts": {
+    "start": "python -m http.server 3000",
+    "dev": "python -m http.server 3000",
+    "test": "jest"
+  },
+  "keywords": ["cinema", "manager", "webprogramozas"],
+  "author": "FGCBKF",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "jest-environment-jsdom": "^29.7.0"
+  }
+}
